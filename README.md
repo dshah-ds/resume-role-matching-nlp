@@ -47,6 +47,8 @@ Case: *TalentBridge Solutions*, a fictional HR-technology company.
 ## Folder structure
 
 ```
+├── Dataset/parsed_resumes.csv          # 5,000 parsed, synthetic resumes
+├── Data Definition.xlsx                # column dictionary
 ├── data/job_descriptions.csv           # 10 structured job descriptions written for this project
 ├── notebooks/01 … 05                   # validation, EDA, features, matching & models, ranking & impact
 ├── src/                                # config, cleaning, features, matching, plot style (used by notebooks + app)
@@ -57,7 +59,7 @@ Case: *TalentBridge Solutions*, a fictional HR-technology company.
 
 ## How to run
 
-The resume dataset (5,000 parsed, synthetic resumes, 34 columns) isn't redistributed here. Place it at `Dataset/parsed_resumes.csv`, then:
+The resume dataset (5,000 parsed, synthetic resumes, 34 columns) is in `Dataset/parsed_resumes.csv`, with column descriptions in `Data Definition.xlsx`. Names are placeholders (`Candidate_N`); there are no emails, phone numbers or addresses. To run everything:
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate

@@ -1,0 +1,17 @@
+Dataset/
+models/
+*.pkl
+.venv/
+.claude/
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+outputs/scored_pairs.csv
+outputs/candidate_jd_pairs.csv
+outputs/candidate_features.csv
+outputs/cleaned_resumes.csv
+outputs/ranked_shortlists.csv
+reports/*.docx
+reports/*.pdf
+reports/*.pptx

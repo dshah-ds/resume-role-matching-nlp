@@ -1,0 +1,26 @@
+feature,logic,why it helps,level
+skills_clean,List of canonical skills after fuzzy correction,Fair matching - typos no longer hide a skill,candidate
+main_skill_family / skill_domain_alignment,Most common skill family; share of skills that belong to the candidate's domain,Shows how focused a profile is (specialist vs scattered),candidate
+experience_bucket,Entry 0-2 / Mid 3-5 / Senior 6-10 / Expert 11+,Easy grouping for recruiters and charts,candidate
+seniority_level,Junior / Mid / Senior from the job title,Compared against the seniority asked in the JD,candidate
+leadership_score,"Mean of management, people mgmt, mentoring, delivery-lead flags",Readiness for lead roles in one number (flags overlap - see EDA H2),candidate
+delivery_score,"Mean of PM, agile, delivery-lead, offshore-onsite, multi-vendor flags",Delivery maturity for IT services roles,candidate
+client_score,Mean of client-facing and stakeholder flags,Fit for consulting / client roles,candidate
+governance_score,"Mean of compliance, process-compliance, documentation flags","Fit for legal, audit, process-heavy roles",candidate
+achievement_pct,% number pulled out of key_achievements with regex,Simple measurable-impact signal,candidate
+project_lead_flag,1 if project summary starts with 'Led',Ownership vs participation,candidate
+keyword_stuffing_flag,keyword_density_score > 0.85,Spot resumes that try to game the ATS,candidate
+resume_quality_score,0.6 completeness + 0.2 length + 0.2 no-stuffing - 0.1 missing education,Small tie-breaker for profile quality,candidate
+profile_text,Role + domain + skills + tools + soft skills + summaries in one cleaned string,Input for the NLP similarity models,candidate
+mandatory_match,Share of JD must-have skills found in skills + tools,Most important hiring filter,candidate x job
+optional_match,Share of nice-to-have skills found,Separates good from great candidates,candidate x job
+all_mandatory_flag,1 if every must-have skill is present,Simple knock-out indicator for recruiters,candidate x job
+tool_match,Share of preferred tools/platforms found,Ramp-up time on the client's stack,candidate x job
+experience_fit,1 inside JD range; -0.25/yr below min; -0.05/yr above max (floor 0.6),Under-experience is riskier than over-experience,candidate x job
+years_gap,Years outside the JD range (negative = below),Explainability,candidate x job
+seniority_fit,"1 same level, 0.5 one level apart, 0 otherwise","Checks title level, not just years",candidate x job
+domain_fit,"1 same domain, 0.5 related domain, 0 otherwise",Functional background alignment,candidate x job
+role_fit,"1 if role is in JD target roles, 0.4 same domain, 0 otherwise",Stated designation alignment,candidate x job
+flag_fit,Share of JD-required experience areas the candidate has,"e.g. cloud, agile, people management",candidate x job
+education_fit,"1 preferred field, 0.2 other field, 0.5 not specified",Missing data is not punished,candidate x job
+tfidf_sim / lsa_sim (+ scaled),Cosine similarity of profile text vs JD text,NLP signal beyond exact keywords,candidate x job

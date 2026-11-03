@@ -1,0 +1,10 @@
+Check,Result,Action
+Missing highest_education / education_field,499 rows,Filled with 'Not Specified' + education_missing_flag (neutral score later)
+'LLM' degree in a non-law field,1063 rows,Re-labelled as 'Masters' + education_corrected_flag
+Misspelt / badly spaced skills,"1040 resumes, 182 distinct bad tokens",Mapped to 30 canonical skills with fuzzy matching (threshold 75)
+Identical flag columns,3 pairs,Kept for JD rules; only one of each pair used in ML
+ml_experience_flag = Data Science domain,100% overlap,Noted as redundant for ML
+Templated text summaries,18 templates max,"NLP similarity used as a supporting signal, not the main one"
+Duplicates (rows / ids / files / content),0,No action needed
+Seniority vs experience / summary vs years,0 violations,No action needed
+Out-of-range values,0,No action needed

@@ -1,0 +1,11 @@
+# Dashboard theme - same "TalentBridge" palette as the report and slides
+[theme]
+base = "light"
+primaryColor = "#0F7B6C"              # teal accent (buttons, sliders)
+backgroundColor = "#FBF8F3"           # warm off-white page
+secondaryBackgroundColor = "#F1E8DC"  # sand sidebar / widgets
+textColor = "#1B2A41"                 # ink navy text
+font = "sans serif"
+
+[server]
+headless = true

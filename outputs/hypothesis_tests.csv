@@ -1,0 +1,6 @@
+id,hypothesis (H1 side),test,statistic,p_value,significant at 5%
+H1,Profile completeness differs by institution tier,One-way ANOVA,2.804,0.0607,No
+H2,Managers have more experience (median 10 vs 4 yrs),Mann-Whitney U,5937519.0,<0.0001,Yes
+H3,Institution tier depends on domain,Chi-square,12.049,0.2818,No
+H4,Keyword density differs for resumes with skill typos,Welch t-test,0.677,0.4987,No
+H5,Years of experience differ across domains,Kruskal-Wallis,221.532,<0.0001,Yes

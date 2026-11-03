@@ -1,0 +1,11 @@
+jd_id,job_title,resumes_read_today,resumes_read_with_engine,high_fit_retained,reduction_pct,hours_saved
+JD01,Senior Cloud Backend Engineer,3774,1504,1.0,60.1,189.2
+JD02,DevOps Engineer,2772,1414,1.0,49.0,113.2
+JD03,Junior Java Developer,2772,2156,1.0,22.2,51.3
+JD04,Data Scientist - NLP,3774,631,1.0,83.3,261.9
+JD05,Business Data Analyst,3913,988,1.0,74.8,243.8
+JD06,HR Business Partner,640,474,1.0,25.9,13.8
+JD07,Talent Acquisition Specialist,501,501,1.0,0.0,0.0
+JD08,Corporate Compliance Counsel,536,397,1.0,25.9,11.6
+JD09,Mechanical Design Engineer,189,189,1.0,0.0,0.0
+JD10,Senior IT Project Manager,2911,139,1.0,95.2,231.0

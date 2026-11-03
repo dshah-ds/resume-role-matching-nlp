@@ -1,0 +1,213 @@
+raw_token,canonical_skill,method,occurrences
+SQL,SQL,exact,1923
+Python,Python,exact,1796
+AWS,AWS,exact,1388
+Git,Git,exact,1382
+Docker,Docker,exact,1298
+Linux,Linux,exact,1293
+Kubernetes,Kubernetes,exact,1271
+Java,Java,exact,1251
+NLP,NLP,exact,561
+TensorFlow,TensorFlow,exact,554
+Power BI,Power BI,exact,546
+Pandas,Pandas,exact,526
+Machine Learning,Machine Learning,exact,522
+HRMS,HRMS,exact,383
+HR Analytics,HR Analytics,exact,381
+Recruitment,Recruitment,exact,381
+Contract Drafting,Contract Drafting,exact,373
+Legal Research,Legal Research,exact,371
+Compliance,Compliance,exact,370
+Due Diligence,Due Diligence,exact,370
+Employee Engagement,Employee Engagement,exact,364
+Payroll,Payroll,exact,364
+CAD,CAD,exact,189
+Manufacturing,Manufacturing,exact,177
+SolidWorks,SolidWorks,exact,172
+Quality Control,Quality Control,exact,170
+Risk Management,Risk Management,exact,130
+Stakeholder Management,Stakeholder Management,exact,128
+Strategy,Strategy,exact,127
+Agile,Agile,exact,124
+Jaav,Java,fuzzy,54
+Jvaa,Java,fuzzy,50
+Pythno,Python,fuzzy,47
+Lniux,Linux,fuzzy,46
+Pyhton,Python,fuzzy,46
+Linxu,Linux,fuzzy,40
+Ptyhon,Python,fuzzy,39
+Liunx,Linux,fuzzy,36
+Pytohn,Python,fuzzy,35
+Dockre,Docker,fuzzy,28
+Dcoker,Docker,fuzzy,27
+Dokcer,Docker,fuzzy,27
+Docekr,Docker,fuzzy,21
+Kubernetse,Kubernetes,fuzzy,20
+Kuebrnetes,Kubernetes,fuzzy,18
+Kubrenetes,Kubernetes,fuzzy,17
+Kuberentes,Kubernetes,fuzzy,16
+Kuberntees,Kubernetes,fuzzy,16
+Kbuernetes,Kubernetes,fuzzy,15
+Kubenretes,Kubernetes,fuzzy,15
+Pandsa,Pandas,fuzzy,13
+HMRS,HRMS,fuzzy,13
+Kuberneets,Kubernetes,fuzzy,12
+Pnadas,Pandas,fuzzy,12
+Power IB,Power BI,fuzzy,11
+HRSM,HRMS,fuzzy,11
+TnesorFlow,TensorFlow,fuzzy,9
+Padnas,Pandas,fuzzy,9
+Payorll,Payroll,fuzzy,8
+Powe rBI,Power BI,spacing,8
+Payrlol,Payroll,fuzzy,7
+TensorFolw,TensorFlow,fuzzy,7
+Poewr BI,Power BI,fuzzy,7
+Agiel,Agile,fuzzy,6
+Powre BI,Power BI,fuzzy,6
+TensroFlow,TensorFlow,fuzzy,6
+Mcahine Learning,Machine Learning,fuzzy,6
+Straetgy,Strategy,fuzzy,6
+Employee Engageemnt,Employee Engagement,fuzzy,5
+Aigle,Agile,fuzzy,5
+TensorlFow,TensorFlow,fuzzy,5
+Panads,Pandas,fuzzy,5
+Cmopliance,Compliance,fuzzy,5
+Due iDligence,Due Diligence,fuzzy,5
+Due Diligenec,Due Diligence,fuzzy,5
+Contract Dratfing,Contract Drafting,fuzzy,5
+Complianec,Compliance,fuzzy,5
+Recrutiment,Recruitment,fuzzy,5
+Machnie Learning,Machine Learning,fuzzy,5
+HR Analtyics,HR Analytics,fuzzy,4
+Compliacne,Compliance,fuzzy,4
+Machine Leraning,Machine Learning,fuzzy,4
+SloidWorks,SolidWorks,fuzzy,4
+Machine Learnnig,Machine Learning,fuzzy,4
+Aglie,Agile,fuzzy,4
+Leagl Research,Legal Research,fuzzy,4
+TenosrFlow,TensorFlow,fuzzy,4
+Paryoll,Payroll,fuzzy,4
+Recuritment,Recruitment,fuzzy,4
+Pwoer BI,Power BI,fuzzy,4
+Recruimtent,Recruitment,fuzzy,4
+Comlpiance,Compliance,fuzzy,4
+Lgeal Research,Legal Research,fuzzy,4
+HR Anlaytics,HR Analytics,fuzzy,4
+Qualit yControl,Quality Control,spacing,4
+Mahcine Learning,Machine Learning,fuzzy,4
+Recruitemnt,Recruitment,fuzzy,4
+Employee Enaggement,Employee Engagement,fuzzy,4
+HR Aanlytics,HR Analytics,fuzzy,4
+Manufacturnig,Manufacturing,fuzzy,4
+Employee Enggaement,Employee Engagement,fuzzy,3
+Macihne Learning,Machine Learning,fuzzy,3
+Contract Darfting,Contract Drafting,fuzzy,3
+Due Diligecne,Due Diligence,fuzzy,3
+HR nAalytics,HR Analytics,fuzzy,3
+Emlpoyee Engagement,Employee Engagement,fuzzy,3
+Legal Reesarch,Legal Research,fuzzy,3
+Machine Learnign,Machine Learning,fuzzy,3
+Machine Learinng,Machine Learning,fuzzy,3
+Due Dilgience,Due Diligence,fuzzy,3
+Emploeye Engagement,Employee Engagement,fuzzy,3
+Machien Learning,Machine Learning,fuzzy,3
+Contract Draftign,Contract Drafting,fuzzy,3
+Empolyee Engagement,Employee Engagement,fuzzy,3
+HR Analytisc,HR Analytics,fuzzy,3
+SoldiWorks,SolidWorks,fuzzy,3
+Recruitmnet,Recruitment,fuzzy,3
+HRA nalytics,HR Analytics,spacing,3
+MachineL earning,Machine Learning,spacing,3
+SolidWroks,SolidWorks,fuzzy,3
+Compilance,Compliance,fuzzy,3
+SoildWorks,SolidWorks,fuzzy,3
+TensorFlwo,TensorFlow,fuzzy,3
+TensoFrlow,TensorFlow,fuzzy,3
+TesnorFlow,TensorFlow,fuzzy,3
+Machine Leanring,Machine Learning,fuzzy,3
+Recriutment,Recruitment,fuzzy,2
+Complinace,Compliance,fuzzy,2
+Deu Diligence,Due Diligence,fuzzy,2
+Quailty Control,Quality Control,fuzzy,2
+Contarct Drafting,Contract Drafting,fuzzy,2
+Quality oCntrol,Quality Control,fuzzy,2
+Employee Engaegment,Employee Engagement,fuzzy,2
+Lega lResearch,Legal Research,spacing,2
+Contract Drafitng,Contract Drafting,fuzzy,2
+Legal Reserach,Legal Research,fuzzy,2
+Contrcat Drafting,Contract Drafting,fuzzy,2
+Machine Laerning,Machine Learning,fuzzy,2
+Du eDiligence,Due Diligence,spacing,2
+PowerB I,Power BI,spacing,2
+LegalR esearch,Legal Research,spacing,2
+Employee Engagemnet,Employee Engagement,fuzzy,2
+HR Anayltics,HR Analytics,fuzzy,2
+H RAnalytics,HR Analytics,spacing,2
+Legal Resaerch,Legal Research,fuzzy,2
+Manufacturign,Manufacturing,fuzzy,2
+Legla Research,Legal Research,fuzzy,2
+Copmliance,Compliance,fuzzy,2
+Rceruitment,Recruitment,fuzzy,2
+Risk Manaegment,Risk Management,fuzzy,2
+Quality Conrtol,Quality Control,fuzzy,2
+Due Diilgence,Due Diligence,fuzzy,2
+Legal Reseacrh,Legal Research,fuzzy,2
+Due Diliegnce,Due Diligence,fuzzy,2
+Epmloyee Engagement,Employee Engagement,fuzzy,2
+Srtategy,Strategy,fuzzy,2
+DueD iligence,Due Diligence,spacing,2
+Legal Rseearch,Legal Research,fuzzy,2
+QualityC ontrol,Quality Control,spacing,2
+Employe eEngagement,Employee Engagement,spacing,2
+Risk Managemnet,Risk Management,fuzzy,2
+Contract Draftnig,Contract Drafting,fuzzy,2
+Manufcaturing,Manufacturing,fuzzy,2
+Stakeholder Managemnet,Stakeholder Management,fuzzy,2
+Stratgey,Strategy,fuzzy,2
+Complaince,Compliance,fuzzy,2
+Qaulity Control,Quality Control,fuzzy,2
+Stakeholder Manaegment,Stakeholder Management,fuzzy,2
+Employee nEgagement,Employee Engagement,fuzzy,1
+Maunfacturing,Manufacturing,fuzzy,1
+Strateyg,Strategy,fuzzy,1
+Recruitmetn,Recruitment,fuzzy,1
+Risk Managmeent,Risk Management,fuzzy,1
+Manufacutring,Manufacturing,fuzzy,1
+EmployeeE ngagement,Employee Engagement,spacing,1
+Contrac tDrafting,Contract Drafting,spacing,1
+Quality Cnotrol,Quality Control,fuzzy,1
+SolidWorsk,SolidWorks,fuzzy,1
+Stakeohlder Management,Stakeholder Management,fuzzy,1
+Stkaeholder Management,Stakeholder Management,fuzzy,1
+SolidoWrks,SolidWorks,fuzzy,1
+HR Analyitcs,HR Analytics,fuzzy,1
+Due Dilignece,Due Diligence,fuzzy,1
+HR Analytcis,HR Analytics,fuzzy,1
+Manuafcturing,Manufacturing,fuzzy,1
+ContractD rafting,Contract Drafting,spacing,1
+Risk Mangaement,Risk Management,fuzzy,1
+Stakeholder Manageemnt,Stakeholder Management,fuzzy,1
+Stakeholde rManagement,Stakeholder Management,spacing,1
+Riks Management,Risk Management,fuzzy,1
+Qualiyt Control,Quality Control,fuzzy,1
+Manufactuirng,Manufacturing,fuzzy,1
+Contract Drfating,Contract Drafting,fuzzy,1
+Rercuitment,Recruitment,fuzzy,1
+Employee Engagmeent,Employee Engagement,fuzzy,1
+Quality Contorl,Quality Control,fuzzy,1
+SolidWokrs,SolidWorks,fuzzy,1
+Startegy,Strategy,fuzzy,1
+Contratc Drafting,Contract Drafting,fuzzy,1
+RiskM anagement,Risk Management,spacing,1
+Stakehodler Management,Stakeholder Management,fuzzy,1
+SoliWdorks,SolidWorks,fuzzy,1
+Stakeholder aMnagement,Stakeholder Management,fuzzy,1
+Stakeholder Mangaement,Stakeholder Management,fuzzy,1
+Legal Researhc,Legal Research,fuzzy,1
+Pyaroll,Payroll,fuzzy,1
+Risk Maangement,Risk Management,fuzzy,1
+Qulaity Control,Quality Control,fuzzy,1
+Qualtiy Control,Quality Control,fuzzy,1
+Emplyoee Engagement,Employee Engagement,fuzzy,1
+Conrtact Drafting,Contract Drafting,fuzzy,1
+Employee Engagemetn,Employee Engagement,fuzzy,1

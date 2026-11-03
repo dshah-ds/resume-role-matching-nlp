@@ -1,0 +1,8 @@
+jd_id,mandatory_missing,candidates,review_pool,share_of_review_pool,job_title
+JD01,Docker,258,806,0.32,Senior Cloud Backend Engineer
+JD02,Docker,225,670,0.34,DevOps Engineer
+JD03,Java,802,1678,0.48,Junior Java Developer
+JD04,Machine Learning,32,97,0.33,Data Scientist - NLP
+JD05,Power BI,411,737,0.56,Business Data Analyst
+JD06,Employee Engagement,88,255,0.35,HR Business Partner
+JD07,HRMS,83,178,0.47,Talent Acquisition Specialist
